@@ -59,4 +59,12 @@ http://docs.wixstatic.com/ugd/7aa9d6_4c69aaeb1e9547c29c8660ee16b5e909.pdf ryb4.p
 </Links>
 ```
 
-
+```
+Для того чтобы запустить программу, нужно скачать её из папки target/downloader.jar
+```
+Пример запуска программы с различными параметрами:
+```cmd
+java -jar downloader.jar -l http://mathus.ru/math/der.pdf -p D:\files\ -n derivate.pdf
+java -jar downloader.jar -f test_files\file1.csv -p D:\
+java -jar downloader.jar -f test_files\file2.json -p D:\ -t 4
+```
